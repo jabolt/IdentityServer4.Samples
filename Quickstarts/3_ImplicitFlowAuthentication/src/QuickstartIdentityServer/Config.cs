@@ -72,6 +72,7 @@ namespace QuickstartIdentityServer
                         StandardScopes.OpenId.Name,
                         StandardScopes.Profile.Name
                     }
+                    //RequireConsent=false
                 }
             };
         }

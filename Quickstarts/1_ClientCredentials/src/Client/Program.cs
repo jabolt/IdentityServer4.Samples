@@ -28,6 +28,7 @@ namespace Client
                 return;
             }
 
+
             Console.WriteLine(tokenResponse.Json);
             Console.WriteLine("\n\n");
 
@@ -43,6 +44,7 @@ namespace Client
 
             var content = response.Content.ReadAsStringAsync().Result;
             Console.WriteLine(JArray.Parse(content));
+            Console.ReadLine();
         }
     }
 }

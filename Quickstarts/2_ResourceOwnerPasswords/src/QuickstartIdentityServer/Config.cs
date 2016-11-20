@@ -63,13 +63,13 @@ namespace QuickstartIdentityServer
                 {
                     Subject = "1",
                     Username = "alice",
-                    Password = "password"
+                    Password = "password1"
                 },
                 new InMemoryUser
                 {
                     Subject = "2",
                     Username = "bob",
-                    Password = "password"
+                    Password = "password1"
                 }
             };
         }
